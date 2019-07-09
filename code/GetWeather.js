@@ -25,22 +25,22 @@ module.exports.function = function getWeather (location) {
     var weatherImage = "six_sweaters.gif"
   }
   
-  if(response.current.condition.text = "frost") {
+  if(response.current.condition.text == "frost") {
     var weatherImage = "ice.gif"
   }
   
-  if(response.current.condition.text = "snow") {
+  if(response.current.condition.text == "snow") {
     var weatherImage = "cat_snow.gif"
   }
   
-  if(response.current.condition.text = "wind") {
+  if(response.current.condition.text == "wind") {
     var weatherImage = "dog_wind.gif"
   }
   
-  if(response.current.condition.text = "rain") {
+  if(response.current.condition.text =="rain") {
     var weatherImage = "singing_rain.gif"
   }
-   else {var weatherImage = "brad_pitt_weather.gif"}
+  //else {var weatherImage = "brad_pitt_weather.gif"}
   
   return {
     cityName: response.location.name,

@@ -1,6 +1,6 @@
 hints {
   uncategorized {
-    utterance (what is the weather like)
+    utterance (what is the weather in)
     utterance (current forecast)
     utterance (find current conditions)
     utterance (find local forecast)

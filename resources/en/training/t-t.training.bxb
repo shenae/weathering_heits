@@ -1,4 +1,5 @@
 train (t-tjzn20bcquliin6ve99a741yk) {
-  utterance ("[g:Weather] what is the weather like in {[g:Location] New York}")
-  last-modified (1562693643565)
+  utterance ("[g:Weather] what is the weather like in (New York)[v:Location]")
+  plan (Y2BmUC7ISaxML8ovzUvRK09NLMlILcrMS4/PSM0sKdYLhwgwaBOhyC2/KDU5sbiEQQWfYp/85MSSzPw8BiYGRiBmAJKMDCDABMEA)
+  last-modified (1562697234423)
 }
