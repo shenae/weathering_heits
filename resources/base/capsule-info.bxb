@@ -3,7 +3,7 @@ capsule-info {
   developer-name (Shenae Simmons)
   icon-asset (brad_pitt_weather.gif)
   description ("Displays current weather conditions with a gif from voice prompt.")
-  website-url (https://shenaesimmons.com/)
+  website-url (https://github.com/shenae/weathering_heits)
   // terms-url (https://example.com/terms-of-use/)
   dispatch-name (Weather today)
   search-keywords{

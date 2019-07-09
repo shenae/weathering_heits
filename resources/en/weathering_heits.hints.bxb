@@ -4,8 +4,9 @@ hints {
     utterance (current forecast)
     utterance (find current conditions)
     utterance (find local forecast)
-    utterance (what is it like outside)
+    utterance (what is the weather outside)
     utterance (should i wear a sweater)
     utterance (what should i wear)
+    utterance (what is the weather like in)
   }
 }
