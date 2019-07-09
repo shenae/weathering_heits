@@ -1,0 +1,5 @@
+train (t-7k72e6xr3vazz756q8agkpohq) {
+  utterance ("[g:Weather] what is the weather like in {[g:Location] (Boston)[s:Location:ASC]}")
+  plan (Y2BlUC7ISaxML8ovzUvRK09NLMlILcrMS4/PSM0sKdYLhwgwaBOhyC2/KDU5sbiEQQWfYp/85MSSzPw8BnViVD3qWE2kcawMjAxMDMwMLEDIAGUzA2kGBm4GTgYuIM0MxExAWaAcAA==)
+  last-modified (1562694318135)
+}

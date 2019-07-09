@@ -1,0 +1,48 @@
+result-view {
+  match: Weather (weather) {
+  }
+render {
+    layout {
+      section {
+        content {
+          hbox {
+            content {
+              vbox {
+                content {
+                  single-line {
+                    text {
+                      value ("#{value(weather.cityName)}")
+                    }
+                  }
+                }
+              }
+              vbox {
+                content {
+                  single-line {
+                    text {
+                      value ("#{value(weather.feelsLike)}")
+                    }
+                  }
+                }
+              }
+              vbox {
+                content {
+                  single-line {
+                    text {
+                      value ("#{value(weather.temperature)}")
+                    }
+                  }
+                }
+              }
+              
+            }
+          }
+          image {
+            aspect-ratio (1:1)
+            url ("#{value(weather.weatherImage)}")
+          }
+        }
+      }
+    }
+  }
+}

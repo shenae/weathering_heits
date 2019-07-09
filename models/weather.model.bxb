@@ -1,0 +1,20 @@
+structure (Weather) {
+  description (__DESCRIPTION__)
+  property (cityName) {
+    type (CityName)
+    min (Required) max (One)
+  }
+  property (temperature) {
+    type (Temperature)
+    min (Required) max (One)
+  }
+  property (feelsLike){
+    type (FeelsLike)
+    min (Required) max (One)
+  }
+  property (weatherImage) {
+    type (WeatherImage)
+    min (Required) max (One)
+  }
+  
+}

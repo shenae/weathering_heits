@@ -1,0 +1,11 @@
+hints {
+  uncategorized {
+    utterance (what is the weather like)
+    utterance (current forecast)
+    utterance (find current conditions)
+    utterance (find local forecast)
+    utterance (what is it like outside)
+    utterance (should i wear a sweater)
+    utterance (what should i wear)
+  }
+}

@@ -1,0 +1,3 @@
+decimal (Temperature) {
+  description (temperature in farenheit)
+}

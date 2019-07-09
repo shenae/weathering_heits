@@ -1,0 +1,10 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (WeatherForecast) {
+      accepted-inputs (location)
+      local-endpoint (GetWeather.js)
+    }
+
+    
+  }
+}

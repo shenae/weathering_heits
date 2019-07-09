@@ -1,0 +1,11 @@
+action (WeatherForecast) {
+  type (Search)
+  description (local weather forecast)
+  collect {
+    input (location) {
+      type (Location)
+      min (Required) max (One)
+    }
+  }
+  output (Weather)
+}

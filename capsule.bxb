@@ -1,0 +1,17 @@
+capsule {
+  id (playground.weathering_heits)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+  store-sections {
+    section (Weather)
+    section (Local)
+  }
+}
